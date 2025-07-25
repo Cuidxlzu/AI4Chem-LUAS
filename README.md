@@ -95,7 +95,7 @@ AI4Chem@LUAS/
 
 4.  **Prompts**: Define your prompts in `configs/prompts.json`. Each prompt should have a unique ID and specify the prompt template and the task type it belongs to. 
 
-5.  **Learning Materials **: The framework supports two types of learning materials that are used as system prompts for the LLM: 
+5.  **Learning Materials**: The framework supports two types of learning materials that are used as system prompts for the LLM: 
     
     *   **General Learning Materials**: These are general context files for a whole task (e.g., `1HNMR_spectroscopy.md` for all of Task 6). Their paths are specified in `configs/tasks.json` under the `context_filepath` key. 
     *   **Specific Learning Materials**: These are materials for a specific experiment (e.g., for experiment `6-4` only). To enable this, you must set `"requires_learning_material": true` for the prompt in `configs/prompts.json`. The framework will then automatically look for a file named `task_{exp_id}_specific_material.md` in the `learning_materials/` directory (e.g., `task_6-4_specific_material.md`). 
@@ -113,7 +113,7 @@ This project is designed to be run from the command line. You can specify the mo
 
 ### 4.2. Examples
 
-**1. Running a single experiment **
+**1. Running a single experiment**
 
 ```bash
 python main.py --model qwen-max-latest --experiments 6-1
