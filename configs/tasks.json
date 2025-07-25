@@ -1,0 +1,51 @@
+{
+    "1": {
+        "data_filepath": "data/task1_data.csv",
+        "load_options": {},
+        "context_filepath": "learning_materials/SMILES_conversion.md",
+        "column_map": {
+            "name_to_smiles": ["分子英文名称", "分子的SMILES代码"],
+            "smiles_to_name": ["分子的SMILES代码", "分子英文名称"]
+        }
+    },
+    "2": {
+        "data_filepath": "data/point_group_data.csv",
+        "load_options": {},
+        "context_filepath": "learning_materials/Point_Group.md",
+        "column_map": {
+            "name_to_point_group": ["Name", "Point group"]
+        }
+    },
+    "3": {
+        "data_filepath": "data/task3.csv",
+        "load_options": {},
+        "context_filepath": "learning_materials/VSEPR_theory.md",
+        "column_map": {
+            "name_to_molecular_geometry": ["Name", "Molecular geometry"]
+        }
+    },
+    "4": {
+        "data_filepath": "data/task4.csv",
+        "load_options": {"header": null},
+        "context_filepath": null,
+        "column_map": {
+            "name_to_logp": [1, null]
+        }
+    },
+    "5": {
+        "data_filepath": "data/task5.csv",
+        "load_options": {},
+        "context_filepath": null,
+        "column_map": {
+            "name_to_psa": ["药物名称", null]
+        }
+    },
+    "6": {
+        "data_filepath": "data/task6.csv",
+        "load_options": {},
+        "context_filepath": null,
+        "column_map": {
+            "name_to_hnmr": ["Name", null]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# OS-specific
+.DS_Store
+
+# Generated files
+results/
+logs/
+repair_results/
+
+# Secrets - DO NOT COMMIT THIS FILE!
+config.py
