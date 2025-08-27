@@ -2,8 +2,21 @@
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ChemRxiv](https://img.shields.io/badge/ChemRxiv-10.26434%2Fchemrxiv--2025--85wpr--v3-blue)](https://doi.org/10.26434/chemrxiv-2025-85wpr-v3)
----
+[![JCIM](https://img.shields.io/badge/JCIM-10.1021--acs.jcim.5c01265-green)](https://doi.org/10.1021/acs.jcim.5c01265)
 
+##  Now Published 
+![JCIM.png](https://youke1.picui.cn/s1/2025/08/27/68ae4cc215df5.png)
+### [Can reasoning power significantly improve the knowledge of large language models for chemistry? --Based on conversations with LLMs](https://doi.org/10.1021/acs.jcim.5c01265)
+
+[Dong-Xu Cui](https://github.com/Cuidxlzu)<sup>⊥</sup>, Shi-Yu Long<sup>⊥</sup>, [Yi-Xuan Tang](https://github.com/tangdoou), Yue Zhao, and Qiao Li<sup>*</sup>
+
+*Journal of Chemical Information and Modeling* (IF=5.3, JCR Q1)
+
+**DOI:** [10.1021/acs.jcim.5c01265](https://doi.org/10.1021/acs.jcim.5c01265)
+
+**Published:** August 25, 2025
+
+---
 ## 1. Introduction
 `AI4Chem@LUAS` is a framework for automating experiments using Large Language Models (LLMs). It allows users to define experiments and prompts in JSON configuration files and run them against various language models via the command line.
 
